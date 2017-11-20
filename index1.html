@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="style.css">	
+		<title> Pierwszy bootstrap</title>
+	</head>
+	<body>
+		<section class="text-center">
+			<h1>Nauka bootstrap<small>Pierwsze podejœcie</small></h1>
+			<button class="btn btn-primary">Przycisk</button>
+		</section>
+		<section class="container">
+			<h1 class="text-center">Gallery</h1>
+			<div class="row picture">
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<img src="http://serwer1765301.home.pl/dla%20pociech/dfoto1.jpg" alt="foto">
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<img src="http://serwer1765301.home.pl/dla%20pociech/dfoto2.jpg" alt="foto">
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<img src="http://serwer1765301.home.pl/dla%20pociech/dfoto3.jpg" alt="foto">
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<img src="http://serwer1765301.home.pl/dla%20pociech/dfoto1.jpg" alt="foto">
+				</div>
+			</div>
+		</section>
+		<section class="container text-center">
+			<h1>First Bootstrap Table</h1>
+			<table class="table table-bordered table-hover text-center">
+    			<thead>
+      				<tr>
+        				<th class="text-center">TOY</th>
+    					<th class="text-center">Price</th>
+    					<th class="text-center">Ean</th>
+      				</tr>
+    			</thead>
+    			<tbody>
+      				<tr>
+    					<td>Teddy Bear</td>
+    					<td>5$</td>
+        				<td>3800034912</td>
+      				</tr>
+      				<tr>
+        				<td>Police Car</td>
+        				<td>15$</td>
+        				<td>3800034967</td>
+      				</tr>
+      				<tr>
+        				<td>Puprle Doll</td>
+        				<td>16,99$</td>
+        				<td>38000359965</td>
+      				</tr>
+    			</tbody>
+  			</table>
+		</section>
+		<section class="container">
+			<h2 class="text-center">Contact Us</h2>
+			<form class="text-center">
+  				<div class="form-group">
+    				<label>Your Email</label>
+    				<input type="email" name="email" placeholder="example-adress@example.com">
+  				</div>
+  				<div class="form-group">
+  					<label for="InputMessage"> Message:</label>
+    				<textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" required></textarea>
+  				</div>
+  				<div class="form-group">
+    				<label for="exampleInputFile">Send file (optional)</label>
+    				<input type="file" id="exampleInputFile">
+    				<p class="help-block">Send file if you want to be sure we understand your problem.</p>
+  				</div>
+  				<div class="checkbox">
+    				<label>
+      				<input type="checkbox">Check if everything is ok :)
+    				</label>
+  				</div>
+  					<button type="submit" class="btn btn-info">Send</button>
+			</form>
+		</section>
+	</body>
+</html>
